@@ -1,0 +1,148 @@
+body {
+      text-align: center;
+      font-family: 'Merriweather', serif;  
+      background-color: #FFFBEB;
+      padding: 0;
+      margin: 0;
+}
+
+a {
+    color: #C27664;
+    text-align: center;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFBEB; 
+}
+
+h1 {
+    
+}
+
+h2{
+    color: #C27664;
+}
+
+h3 {
+    color: #C27664;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    height: 0px;
+    border-width: 8px;
+    width: 5%;
+    margin: 100px auto 100px auto;
+}
+
+/*************************Class Selectors*********************/
+
+.top-container {
+    position: relative;
+    margin-bottom: 10%;
+    height: 900px;
+    
+}
+
+.middle-container {
+    position: relative;
+}
+
+.bottom-container {
+    position: static;
+    background-color: #F8CBA6;
+    margin-top: 50px;
+    padding: 30px 0 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-h1 {
+    position: relative;
+    top: 300px;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
+    color: #C27664;
+}
+
+.intro-h3 {
+    position: relative;
+    top: 250px;
+    color: #C27664;
+}
+
+.intro-p {
+    width: 30%;
+    line-height: 2;
+    margin: 20px auto;
+}
+
+.cloud1 {
+    position: absolute;
+    right: 600px;
+    top: 200px;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 500px;
+    bottom: 400px;
+}
+
+.mountain {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 310px;
+}
+
+.skill-row {
+    width: 30%;
+    margin: 120px auto 120px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-img1 {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-img2 {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.copyright {
+    color: #FFFBEB;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #C27664;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    margin: 10px auto 30px auto;
+  }
+  
+  .btn:hover {
+    background: #C27664;
+    background-image: -webkit-linear-gradient(top, #C27664, #F8CBA6);
+    background-image: -moz-linear-gradient(top, #C27664, #F8CBA6);
+    background-image: -ms-linear-gradient(top, #C27664, #F8CBA6);
+    background-image: -o-linear-gradient(top, #C27664, #F8CBA6);
+    background-image: linear-gradient(to bottom, #C27664, #F8CBA6);
+    text-decoration: none;
+  }

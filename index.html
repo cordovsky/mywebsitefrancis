@@ -1,49 +1,59 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Francis' Personal Site</title>
+    <title>Francis Cordova - a web developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Sacramento&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="images\cordova.jpg" alt="Francis Profile Picture"></td><td><h1>Francis Romar Cordova</h1>
-        <p><em>Self-taught Web Developer</em></p>
-        <p>I love drinking coffee and beer.</p></td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>Claret School of Quezon City</li>
-      <li>Our Lady of Perpetual Succor College</li>
-      <li>Informatics College of Cainta</li>
-    </ul>
-    <hr>
-    <h3>My Hobbies</h3>
-    <ol>
-      <li>Playing video games and table tennis</li>
-      <li>Learning new stuff</li>
-      <li>Building and troubleshooting desktop PCs</li>
-    </ol>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Adobe Photoshop</td><td>&#11088; &#11088; &#11088;</td>
-      </tr>
-      <tr>
-        <td>HTML</td><td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
-      </tr>
-      <tr>
-        <td>CSS</td><td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
-      </tr>
-      <tr>
-        <td>PC Building</td><td>&#11088; &#11088; &#11088; &#11088; &#11088;</td>
-      </tr>
-    </table>
-    <hr>
-    <h3><a href="contact-me.html">Contact Me</a></h3>
 
+  <body>
+    <div class="top-container">
+      <img src="images/cloud.png" class="cloud1" alt="cloud-img">
+      <h1 class="intro-h1">I'm Francis.</h1>
+      <h3 class="intro-h3">a web developer</h3>
+      <img src="images/cloud.png" class="cloud2" alt="cloud-img">
+      <img src="images/mountain.png" class="mountain" alt="mountain-img">
+    </div> 
+
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/cordova.png" alt="francis profile picture">
+        <h2>Hello.</h2>
+        <p class="intro-p">I am a self-taught web developer who enjoys learning new tech stuff. I love drinking coffee and playing video games in my spare time.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="skill-img1" src="images/desktop.png" alt="desktop-img">
+          <h3>PC Building and Troubleshooting</h3>
+          <p>I have built a lot of desktops in the past and have maintained them very well for a long time.</p>
+        </div>
+        <div class="skill-row">
+          <img class="skill-img2" src="images/web-development.png" alt="webdev-img">
+          <h3>Web Development and Design</h3>
+          <p>I started my designing journey from editing photos and vectors. Now, I am building websites as well.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you'd like to hire me</h3>
+        <p>Then feel free to click the button below to shoot me an email.</p>
+        <a class="btn" href="mailto:chula.cordova@yahoo.com">CONTACT ME</a>
+      </div>
+    </div>
+    
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/cordovsky">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/ChulaCordova">Twitter</a>
+      <a class="footer-link" href="https://www.facebook.com/cordovsky/">Facebook</a>
+      <p class="copyright">© Francis Romar Cordova.</p>
+    </div>
+     
   </body>
 </html>
